@@ -11,14 +11,14 @@ def todolist(request):
 # Contact Page View
 def contact(request):
     context={
-        'welcome_text':"For Further Information Contact Us!",
+        'contact_text':"For Further Information Contact Us!",
     }
     return render(request,'contact.html',context)
 
 # About us Page View
 def about(request):
     context={
-        'welcome_text':"Want to Know about Us?",
+        'about_text':"Want to Know about Us?",
     }
     return render(request,'about.html',context)
  
